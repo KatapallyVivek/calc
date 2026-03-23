@@ -2,7 +2,12 @@ body{
     /* margin: 0; */
     display: flex;
     justify-content: center;
-    background-color: hsl(0, 0%, 70%);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkIEU9O02_IX0nUv09NKYhIkNoNQE6d4NRig&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+    width: 100vw;
+
 }
 .calculator {
     font-family: Arial, sans-serif;
@@ -43,7 +48,7 @@ button{
     
 }
 .oper-btn{
-    background-color: hsl(0, 92%, 46%);
+    background-color: hsl(42, 88%, 58%);
 }
 .oper-btn:hover{
     background-color: hsl(39, 100%, 70%);
